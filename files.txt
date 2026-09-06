@@ -1,0 +1,5 @@
+//to delete folder
+rm -r folder-name
+
+//to Extract by using 7z
+7z x file-name.zip -o./folder-name
