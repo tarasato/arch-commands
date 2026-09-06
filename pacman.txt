@@ -1,0 +1,2 @@
+//to check where is command come from
+pacman -Qo $(which command)

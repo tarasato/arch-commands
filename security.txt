@@ -1,0 +1,5 @@
+//to allow port by using ufw
+sudo ufw allow 5520/udp
+
+//to remove allowed port by using ufw
+sudo ufw delete allow 5520/udp
