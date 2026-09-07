@@ -1,0 +1,28 @@
+Basic Movement
+h: Move left one character.
+j: Move down one line.
+k: Move up one line.
+l: Move right one character.
+w: Jump forward to the start of the next word.
+b: Jump backward to the start of the previous word.
+
+Line and File Navigation
+0: Jump to the beginning of the current line.
+$: Jump to the end of the current line.
+gg: Jump to the very first line of the file.
+G: Jump to the very last line of the file.
+
+Insertion and Editing
+i: Enter Insert mode before the current cursor position.
+a: Enter Insert mode after the current cursor position.
+o: Open a new line below the current line and enter Insert mode.
+O: Open a new line above the current line and enter Insert mode.
+u: Undo the last action.
+Ctrl + r: Redo the last undone action.
+Esc: Return to Normal mode from any other mode.
+
+Saving and Quitting
+:w — Write (save) the file without quitting.
+:q — Quit the file (fails if you have unsaved changes).
+:wq or :x — Write and quit (saves the file and closes it).
+:q! — Force quit and discard all unsaved changes.
