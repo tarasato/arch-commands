@@ -1,2 +1,8 @@
 //to check where is command come from
 pacman -Qo $(which command)
+
+//to search pacman available packages
+pacman -Ss package-name
+
+//to query pacman packages on host
+pacman -Qs package-name
