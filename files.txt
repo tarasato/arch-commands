@@ -1,3 +1,12 @@
+//to create file
+touch file-name.txt
+
+//to delete file
+rm  folder-name.txt
+
+//to create folder
+mkdir folder-name
+
 //to delete folder
 rm -r folder-name
 
