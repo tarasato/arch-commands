@@ -1,0 +1,7 @@
+# To check entry names/IDs in grub
+sudo awk -F\' '/menuentry / {print $2}' /boot/grub/grub.cfg
+sudo grep -oP "menuentry_id_option '\K[^']+" /boot/grub/grub.cfg
+
+# To entry with ID
+sudo grub-reboot "that-id-here"
+sudo reboot
