@@ -5,6 +5,8 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+alias ebrc='nano ~/.bashrc'
+alias rk='clear && exec "$SHELL"'
 alias windows='sudo grub-reboot efi-bootnext-000'
 alias bios='sudo systemctl reboot --firmware-setup'
 alias ff='clear && fastfetch'
