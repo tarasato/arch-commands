@@ -21,7 +21,7 @@ Categories=TextEditor;Development;IDE;
 MimeType=text/plain;application/x-code-workspace;
 EOF
 
-## Uninstall wihtout pacman
+## Uninstall without pacman
 APP_DIR="/opt/vscode"
 
 sudo rm -rf "$APP_DIR"
