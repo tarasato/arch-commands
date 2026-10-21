@@ -1,4 +1,5 @@
 ## Install without pacman
+```
 ARCHIVE="code-stable-x64-1787668990.tar.gz"
 APP_DIR="/opt/vscode"
 
@@ -20,18 +21,21 @@ StartupWMClass=Code
 Categories=TextEditor;Development;IDE;
 MimeType=text/plain;application/x-code-workspace;
 EOF
+```
 
 ## Uninstall without pacman
+```
 APP_DIR="/opt/vscode"
 
 sudo rm -rf "$APP_DIR"
 sudo rm -f /usr/local/bin/code
 sudo rm -f /usr/share/applications/vscode.desktop
-
+```
 
 
 
 ## Install by using pacman
+```
 ARCHIVE="code-stable-x64-1787668990.tar.gz"
 PKG_DIR="$HOME/vscode-pkg"
 
@@ -76,6 +80,9 @@ DESKTOP
 EOF
 
 makepkg -si
+```
 
 ## Uninstall by using pacman
+```
 sudo pacman -Rns visual-studio-code-custom
+```
