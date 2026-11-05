@@ -1,5 +1,5 @@
 #
-# ~/.bashrc
+# nano ~/.bashrc
 #
 
 # If not running interactively, don't do anything
@@ -15,3 +15,6 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 fastfetch
+
+alias wssh='eval $(ssh-agent -s)'
+alias sak='ssh-add ~/.ssh/tarasato_ed25519'
