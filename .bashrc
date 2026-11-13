@@ -6,6 +6,7 @@
 [[ $- != *i* ]] && return
 
 alias ebrc='nano ~/.bashrc'
+alias rsb='exec bash -l'
 alias rk='clear && exec "$SHELL"'
 alias windows='sudo grub-reboot efi-bootnext-000'
 alias bios='sudo systemctl reboot --firmware-setup'
