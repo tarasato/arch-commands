@@ -12,3 +12,6 @@ rm -r folder-name
 
 //to Extract by using 7z
 7z x file-name.zip -o./folder-name
+
+// tar
+tar -xf /mnt/SN750-1TB/tor-expert-bundle-linux-x86_64-16.0.1.tar.gz -C ./tor
